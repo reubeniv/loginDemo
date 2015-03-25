@@ -37,4 +37,9 @@ public class HomeController {
 		return "home";
 	}
 	
+	@RequestMapping(value = "/newUser", method = RequestMethod.GET)
+	public String newUser(Locale locale, Model model) {
+		return "newUser";
+	}
+	
 }
