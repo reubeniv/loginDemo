@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h1>Login Test Successful!</h1>
+	<h1>Hello ${message}!</h1>
 	<a href="http://localhost:8080/portfolio-1.0.0-BUILD-SNAPSHOT/hello">Go home</a>
 </body>
 </html>

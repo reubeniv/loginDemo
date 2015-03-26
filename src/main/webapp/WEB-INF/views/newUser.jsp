@@ -10,7 +10,7 @@
 <body>
 <h1>Add User</h1>
 <div>
-	<form method="POST" action="newUser">
+	<form method="POST" action="addUser">
 		First Name: <input type="text" name="first_name" placeholder="first name"><br>
 		Last Name: <input type="text" name="last_name" placeholder="last_name"><br>
 		Email Address: <input type="text" name="email" placeholder="email address"><br>

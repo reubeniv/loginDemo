@@ -8,14 +8,14 @@
 <title>Insert title here</title>
 </head>
 <body>
-
+<h1>Add User</h1>
 <div>
-	<form method="POST" action="newUser">
-		<input type="text" name="first_name" placeholder="first name"><br>
-		<input type="text" name="last_name" placeholder="last_name"><br>
-		<input type="text" name="email" placeholder="email address"><br>
-		<input type="text" name="login" placeholder="Username"><br>
-		<input type="password" name="password" placeholder="Password"><br>
+	<form method="POST" action="addUser">
+		First Name: <input type="text" name="first_name" placeholder="first name"><br>
+		Last Name: <input type="text" name="last_name" placeholder="last_name"><br>
+		Email Address: <input type="text" name="email" placeholder="email address"><br>
+		Username: <input type="text" name="login" placeholder="Username"><br>
+		Password: <input type="password" name="password" placeholder="Password"><br>
 		<button type="submit" >Submit</button>
 		<a class = "new-user" href="hello">Cancel</a>
 	</form>
